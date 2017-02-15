@@ -1,0 +1,37 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) [
+glmerMod]
+ Family: binomial  ( logit )
+Formula: Response ~ Condition + age + (1 + List | Utterance) + (1 | Participant)
+   Data: d
+Control: glmerControl(optCtrl = list(maxfun = 150000))
+
+     AIC      BIC   logLik deviance df.resid 
+   731.9    780.5   -356.9    713.9     1642 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-58.866   0.010   0.059   0.177   3.126 
+
+Random effects:
+ Groups      Name        Variance Std.Dev. Corr 
+ Participant (Intercept) 3.149047 1.77456       
+ Utterance   (Intercept) 0.552263 0.74314       
+             List        0.002128 0.04613  -1.00
+Number of obs: 1651, groups:  Participant, 69; Utterance, 25
+
+Fixed effects:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)   4.2386     0.3787  11.191  < 2e-16 ***
+Condition1    1.9344     0.4014   4.819 1.44e-06 ***
+Condition2   -3.8833     0.3545 -10.956  < 2e-16 ***
+Condition3   -1.0841     0.3074  -3.527 0.000421 ***
+age1          1.9908     0.2800   7.109 1.17e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr) Cndtn1 Cndtn2 Cndtn3
+Condition1  0.119                     
+Condition2 -0.475 -0.294              
+Condition3 -0.260 -0.209  0.105       
+age1        0.302  0.091 -0.237  0.011

@@ -1,0 +1,201 @@
+
+   Cell Contents
+|-------------------------|
+|                   Count |
+|         Expected Values |
+| Chi-square contribution |
+|             Row Percent |
+|          Column Percent |
+|           Total Percent |
+|            Std Residual |
+|-------------------------|
+
+Total Observations in Table:  66 
+
+                          | part_ms_SP_kids$Pass 
+part_ms_SP_kids$Condition |    FALSE  |     TRUE  | Row Total | 
+--------------------------|-----------|-----------|-----------|
+                        P |       29  |        4  |       33  | 
+                          |   24.000  |    9.000  |           | 
+                          |    1.042  |    2.778  |           | 
+                          |   87.879% |   12.121% |   50.000% | 
+                          |   60.417% |   22.222% |           | 
+                          |   43.939% |    6.061% |           | 
+                          |    1.021  |   -1.667  |           | 
+--------------------------|-----------|-----------|-----------|
+                        S |       19  |       14  |       33  | 
+                          |   24.000  |    9.000  |           | 
+                          |    1.042  |    2.778  |           | 
+                          |   57.576% |   42.424% |   50.000% | 
+                          |   39.583% |   77.778% |           | 
+                          |   28.788% |   21.212% |           | 
+                          |   -1.021  |    1.667  |           | 
+--------------------------|-----------|-----------|-----------|
+             Column Total |       48  |       18  |       66  | 
+                          |   72.727% |   27.273% |           | 
+--------------------------|-----------|-----------|-----------|
+
+ 
+Statistics for All Table Factors
+
+
+Pearson's Chi-squared test 
+------------------------------------------------------------
+Chi^2 =  7.638889     d.f. =  1     p =  0.005712309 
+
+Pearson's Chi-squared test with Yates' continuity correction 
+------------------------------------------------------------
+Chi^2 =  6.1875     d.f. =  1     p =  0.01286558 
+
+ 
+McNemar's Chi-squared test 
+------------------------------------------------------------
+Chi^2 =  9.782609     d.f. =  1     p =  0.001761702 
+
+McNemar's Chi-squared test with continuity correction 
+------------------------------------------------------------
+Chi^2 =  8.521739     d.f. =  1     p =  0.00350929 
+
+ 
+       Minimum expected frequency: 9 
+
+
+   Cell Contents
+|-------------------------|
+|                   Count |
+|         Expected Values |
+| Chi-square contribution |
+|             Row Percent |
+|          Column Percent |
+|           Total Percent |
+|            Std Residual |
+|-------------------------|
+
+Total Observations in Table:  69 
+
+              | part_ms_S$Pass 
+part_ms_S$age |    FALSE  |     TRUE  | Row Total | 
+--------------|-----------|-----------|-----------|
+        adult |        0  |       36  |       36  | 
+              |    9.913  |   26.087  |           | 
+              |    9.913  |    3.767  |           | 
+              |    0.000% |  100.000% |   52.174% | 
+              |    0.000% |   72.000% |           | 
+              |    0.000% |   52.174% |           | 
+              |   -3.148  |    1.941  |           | 
+--------------|-----------|-----------|-----------|
+        child |       19  |       14  |       33  | 
+              |    9.087  |   23.913  |           | 
+              |   10.814  |    4.109  |           | 
+              |   57.576% |   42.424% |   47.826% | 
+              |  100.000% |   28.000% |           | 
+              |   27.536% |   20.290% |           | 
+              |    3.288  |   -2.027  |           | 
+--------------|-----------|-----------|-----------|
+ Column Total |       19  |       50  |       69  | 
+              |   27.536% |   72.464% |           | 
+--------------|-----------|-----------|-----------|
+
+ 
+Statistics for All Table Factors
+
+
+Pearson's Chi-squared test 
+------------------------------------------------------------
+Chi^2 =  28.60364     d.f. =  1     p =  8.881524e-08 
+
+Pearson's Chi-squared test with Yates' continuity correction 
+------------------------------------------------------------
+Chi^2 =  25.79095     d.f. =  1     p =  3.804681e-07 
+
+ 
+Fisher's Exact Test for Count Data
+------------------------------------------------------------
+Sample estimate odds ratio:  0 
+
+Alternative hypothesis: true odds ratio is not equal to 1
+p =  1.770293e-08 
+95% confidence interval:  0 0.1019427 
+
+Alternative hypothesis: true odds ratio is less than 1
+p =  1.770293e-08 
+95% confidence interval:  0 0.07944977 
+
+Alternative hypothesis: true odds ratio is greater than 1
+p =  1 
+95% confidence interval:  0 Inf 
+
+
+ 
+       Minimum expected frequency: 9.086957 
+
+
+   Cell Contents
+|-------------------------|
+|                   Count |
+|         Expected Values |
+| Chi-square contribution |
+|             Row Percent |
+|          Column Percent |
+|           Total Percent |
+|            Std Residual |
+|-------------------------|
+
+Total Observations in Table:  69 
+
+              | part_ms_P$Pass 
+part_ms_P$age |    FALSE  |     TRUE  | Row Total | 
+--------------|-----------|-----------|-----------|
+        adult |        9  |       27  |       36  | 
+              |   19.826  |   16.174  |           | 
+              |    5.912  |    7.246  |           | 
+              |   25.000% |   75.000% |   52.174% | 
+              |   23.684% |   87.097% |           | 
+              |   13.043% |   39.130% |           | 
+              |   -2.431  |    2.692  |           | 
+--------------|-----------|-----------|-----------|
+        child |       29  |        4  |       33  | 
+              |   18.174  |   14.826  |           | 
+              |    6.449  |    7.905  |           | 
+              |   87.879% |   12.121% |   47.826% | 
+              |   76.316% |   12.903% |           | 
+              |   42.029% |    5.797% |           | 
+              |    2.539  |   -2.812  |           | 
+--------------|-----------|-----------|-----------|
+ Column Total |       38  |       31  |       69  | 
+              |   55.072% |   44.928% |           | 
+--------------|-----------|-----------|-----------|
+
+ 
+Statistics for All Table Factors
+
+
+Pearson's Chi-squared test 
+------------------------------------------------------------
+Chi^2 =  27.51241     d.f. =  1     p =  1.560901e-07 
+
+Pearson's Chi-squared test with Yates' continuity correction 
+------------------------------------------------------------
+Chi^2 =  25.02978     d.f. =  1     p =  5.645154e-07 
+
+ 
+Fisher's Exact Test for Count Data
+------------------------------------------------------------
+Sample estimate odds ratio:  0.04887164 
+
+Alternative hypothesis: true odds ratio is not equal to 1
+p =  1.432402e-07 
+95% confidence interval:  0.009713216 0.1888034 
+
+Alternative hypothesis: true odds ratio is less than 1
+p =  1.010807e-07 
+95% confidence interval:  0 0.1588497 
+
+Alternative hypothesis: true odds ratio is greater than 1
+p =  1 
+95% confidence interval:  0.01249327 Inf 
+
+
+ 
+       Minimum expected frequency: 14.82609 
+
